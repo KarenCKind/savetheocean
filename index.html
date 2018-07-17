@@ -1,19 +1,65 @@
-<html>
- <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
-  <a href="aboutme.html"> About me </a>      
-  <h1 style= color:blue> Save The Ocean </h1>
-   <p>WHY PROTECT OUR OCEANS? </p>
-    People need air to breathe, water to drink, food to eat, new medicines, a climate we can live in, beauty, inspiration and recreation. 
-    We need to know that we belong to something bigger than ourselves. 
-    We want a better future for those we care about. To survive and prosper, we need healthy oceans. </p>
-   <p>
-    The ocean is the largest ecosystem on Earth, it is the planet’s life support system. Oceans generate half of the oxygen we breathe and, at any given moment, they contain more than 97% of the world’s water. Oceans provide at least a sixth of the animal protein people eat. Living oceans absorb carbon dioxide from the atmosphere and reduce climate change impacts. 
-    The diversity and productivity of the world’s oceans is a vital interest for humankind. Our security, our economy, our very survival all require healthy oceans.
-   </p>
-   <div id="saveit">
-       <input id="savewhat" placeholder="What is your cause?" type="text">
-       <button oneclick="document.getElementById('saveit').innerText ='Save the ' + document.getElementById('savewhat').value + '!'"> Click me!</button>
-   </div>
- </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title>Save the Ocean</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 style=color:blue> Save The Ocean </h1>
+    </header>
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="aboutme.html"> ABOUT ME</a> |
+        <a href="">FORM</a> |
+        <a href="">PETITION</a>
+    </nav>
+    <section>
+        <p>WHY PROTECT OUR OCEANS? </p>
+        People need air to breathe, water to drink, food to eat, new medicines, a climate we can live in, beauty, inspiration and
+        recreation. We need to know that we belong to something bigger than ourselves. We want a better future for those
+        we care about. To survive and prosper, we need healthy oceans. </p>
+        <p>
+            The ocean is the largest ecosystem on Earth, it is the planet’s life support system. Oceans generate half of the oxygen we
+            breathe and, at any given moment, they contain more than 97% of the world’s water. Oceans provide at least a
+            sixth of the animal protein people eat. Living oceans absorb carbon dioxide from the atmosphere and reduce climate
+            change impacts. The diversity and productivity of the world’s oceans is a vital interest for humankind. Our security,
+            our economy, our very survival all require healthy oceans.
+        </p>
+        <div id="saveit">
+            <input id="savewhat" placeholder="What is your cause?" type="text">
+            <button oneclick="document.getElementById('saveit').innerText ='Save the ' + document.getElementById('savewhat').value + '!'">
+                Click me!</button>
+        </div>
+    </section>
+    <section>
+        <h2> We should take care of the ocean because...</h2>
+        <ul>
+            <li>it reduces carbon dioxide in the atmosphere</li>
+            <li>is home to species we have yet to discover</li>
+            <li>inspires leisure activities</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Image Gallery</h2>
+        <div class="gallery">
+            <img src="Images/freediver.jpg" alt="Frediver">
+            <div class="desc">Freediver</div>
+        </div>
+        <div class="gallery">
+            <img src="Images/wave.jpg" alt="An amazing wave">
+            <div class="desc">An amazing wave</div>
+        </div>
+        <div class="gallery">
+            <img src="Images/whale.jpg" alt="Humback Whale">
+            <div class="desc">Humback Whale</div>
+        </div>
+    </section>
+    <footer>
+        <p class="creator">Created by Karen</p>
+    </footer>
+</body>
+
+</html>
