@@ -2,47 +2,64 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Save the Ocean</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1 style=color:blue> Save The Ocean </h1>
+        <a class="logo" href="#"></a>
+        <nav>
+            <a class="menu-icon" href="a"></a>
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="aboutme.html"> ABOUT ME</a>
+                </li>
+                <li>
+                    <a href="">FORM</a>
+                </li>
+                <li>
+                    <a href="">PETITION</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">HOME</a> |
-        <a href="aboutme.html"> ABOUT ME</a> |
-        <a href="">FORM</a> |
-        <a href="">PETITION</a>
-    </nav>
+    <h1> Save The Ocean </h1>
     <section>
-        <p>WHY PROTECT OUR OCEANS? </p>
+    <article class="col col1">
+
+        <h2>WHY PROTECT OUR OCEANS?... </h2>
+        <p>
         People need air to breathe, water to drink, food to eat, new medicines, a climate we can live in, beauty, inspiration and
         recreation. We need to know that we belong to something bigger than ourselves. We want a better future for those
-        we care about. To survive and prosper, we need healthy oceans. </p>
+        we care about. To survive and prosper, we need healthy oceans. 
+       </p>
         <p>
             The ocean is the largest ecosystem on Earth, it is the planet’s life support system. Oceans generate half of the oxygen we
             breathe and, at any given moment, they contain more than 97% of the world’s water. Oceans provide at least a
             sixth of the animal protein people eat. Living oceans absorb carbon dioxide from the atmosphere and reduce climate
             change impacts. The diversity and productivity of the world’s oceans is a vital interest for humankind. Our security,
             our economy, our very survival all require healthy oceans.
-        </p>
+        </p>  
         <div id="saveit">
             <input id="savewhat" placeholder="What is your cause?" type="text">
-            <button oneclick="document.getElementById('saveit').innerText ='Save the ' + document.getElementById('savewhat').value + '!'">
+            <button oneclick="document.getElementById('saveit').innerText = 'Save the ' + document.getElementById('savewhat').value + '!'">
                 Click me!</button>
         </div>
-    </section>
-    <section>
-        <h2> We should take care of the ocean because...</h2>
+        <p>We should take care of the ocean because...</p>
         <ul>
             <li>it reduces carbon dioxide in the atmosphere</li>
             <li>is home to species we have yet to discover</li>
-            <li>inspires leisure activities</li>
+            <li>inspires leisure activities such as freediving,snorkeling,swimming,sailing and many more...</li>
         </ul>
-    </section>
-    <section>
+    </p>    
+    </article>
+    <article class= "col col2">
         <h2>Image Gallery</h2>
         <div class="gallery">
             <img src="Images/freediver.jpg" alt="Frediver">
@@ -56,9 +73,10 @@
             <img src="Images/whale.jpg" alt="Humback Whale">
             <div class="desc">Humback Whale</div>
         </div>
-    </section>
+    </article>
+    <section>
     <footer>
-        <p class="creator">Created by Karen</p>
+        <p class="creator">&copy 2018 | Created by Karen</p>
     </footer>
 </body>
 
